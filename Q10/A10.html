@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="styles.css">
+        <script src="A10.js"></script>
+    </head>
+    <body>
+        <pre>
+            Question 10: Create a form with following inputs:
+            1.	Name(Text max length 30 characters)
+            2.	Email Id (Valid Email ID with max length 20 character)
+            3.	Date of birth (valid date of format ‘DD-Mon-YYYY’)
+            Also add a button with label ‘Click’, on click throw an alert with following message
+            “Your age is *X* years and *Y* days”
+            Validate fields (Email & Date) for format issue once user finish typing, and display the error message next to the field if invalid value is provided.
+        </pre>
+        <div>
+            <form id="userForm">
+                <fieldset>
+                    <label>Name :</label>
+                    <input type="text" maxlength="30"><br>
+                    <label>Email :</label>
+                    <input type="email" maxlength="20" onblur="emailValidate(event)"><span id="emailError">Please enter a valid email</span><br>
+                    <label>Date of birth :</label>
+                    <input id="dob" type="text" maxlength="11" placeholder="DD-Mon-YYYY" onblur="dateValidate(event)"><span id="dateError">Please enter a valid date</span><br>
+                </fieldset>
+            </form>
+            <button onclick="calcAge()">Click</button>
+        </div>
+    </body>
+</html>

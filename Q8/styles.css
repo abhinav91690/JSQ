@@ -1,0 +1,29 @@
+legend {
+    color: white;
+    background-color:darkcyan;
+}
+
+fieldset {
+    border-color: darkcyan;
+}
+
+input {
+    margin: 4px 4px 4px 4px;
+    width: 200px;
+}
+
+select {
+    margin: 4px 4px 4px 4px;
+    width: 200px;
+}
+
+label {
+    color: black;
+    display: inline-block; 
+    width: 200px;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+}

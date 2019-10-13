@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="styles.css">
+        <script src="A8.js"></script>
+    </head>
+    <body>
+        <pre>
+            Question 8: Build a dynamic form with text fields and select lists that lets users select the field type. Multiple controls should be allowed to be added via create form control button.
+            On “Preview Form” button click, display the form which is generated based on the selection.
+        </pre>
+        <form id="createForm">
+            <fieldset>
+                <legend>Create Dynamic Form</legend>
+                <div id="createFields">
+                </div>
+            </fieldset>
+        </form>
+        <div class="container">
+            <button onclick="createForm()">Create Form Control</button>
+            <button onclick="previewForm()">Preview Form</button>
+        </div>
+        <form>
+            <fieldset>
+                <legend>Generated Form</legend>
+                <div id="previewFields">
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>

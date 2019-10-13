@@ -1,0 +1,32 @@
+.box {
+    min-width: 30px;
+    min-height: 30px;
+    color: black;
+    border: 0.5px;
+    border-style: solid;
+    display: inline-block;
+}
+
+.row {
+    margin: 0px;
+    display: block;
+    width: 256px;
+}
+
+button {
+    margin: 4px 4px 4px 4px;
+    width: 75px;
+}
+
+.white {
+    background-color: white;
+}
+.blue {
+    background-color: blue;
+}
+.green {
+    background-color: green;
+}
+.red {
+    background-color: red;
+}

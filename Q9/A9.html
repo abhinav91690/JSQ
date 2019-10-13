@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="styles.css">
+        <script src="A9.js"></script>
+    </head>
+    <body>
+        <pre>
+            Question 9: Create a drag and drop region as shown below. User should be able drag and drop numbers into the box and see them automatically sorted (ascending).
+        </pre>
+        <div>
+            Drag the number into the box to sort:
+            <div class="drop-container" ondrop="onDrop(event)" ondragover="allowDrop(event)"></div>
+            <div class="numbers-container">
+                <div class="numbers" id="23" ondragstart="onDragStart(event)" draggable="true">23</div>
+                <div class="numbers" id="51" ondragstart="onDragStart(event)"  draggable="true">51</div>
+                <div class="numbers" id="9" ondragstart="onDragStart(event)" draggable="true">9</div>
+                <div class="numbers" id="12" ondragstart="onDragStart(event)" draggable="true">12</div>
+                <div class="numbers" id="71" ondragstart="onDragStart(event)" draggable="true">71</div>           
+            </div>
+        </div>
+    </body>
+</html>
