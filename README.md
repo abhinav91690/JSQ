@@ -1,1 +1,1 @@
-# JS Questionaire answers
+# JS Questionnaire answers
